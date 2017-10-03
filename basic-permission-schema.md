@@ -39,7 +39,7 @@ The binding between permission scheme and group has already been made during per
 ##### Set default application to new users
 From `Application access`:
 - Click on `Set defaults for new users` button
-- Uncheck every entry but **JIRA Core**
+- Uncheck everything but **JIRA Core**
 - close the dialog window
 
 From now on, every user will be assigned to JIRA Core by default. You can always change the user group at any time, and select the applications directly from the User Creation wizard.
