@@ -27,8 +27,15 @@ Since not all users have to create, edit or delete issues, a default permission 
     - Any changes can be done at any time
     - *Please note, to make a permission available to any user, either logged in or not, you have to choose the **"Anyone"** Group grant.*
 
-##### Set permission scheme to group
-The binding between permission scheme and group has already been made during permission scheme creation, on permission edit.
+##### Set permission scheme to project
+A permission scheme is project-wise, so it is possible to set different behaviours in different projects for the same user or group:
+- open `Settings` (gear icon) > `Projects`
+- click on the project you want to link to the permission scheme
+- click on `Permissions` in the Project settings sidebar
+- click on `Actions` (gear icon) > `Use a different scheme`
+- Select the new permission scheme and click on `Associate`
+- Now the selected project runs with the specified permission scheme
+
 
 ##### Set group default for JIRA applications
 - open `Applications` (from the top menu bar) > `Application access` (second entry of the sidebar)
